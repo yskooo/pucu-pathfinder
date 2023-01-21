@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from '@next/font/google'
-// import Header from '../components/Header.jsx'
+import Header from '../components/section/Header.jsx'
 import Hero from '../components/Hero.jsx'
 import About from '../components/section/About.jsx'
 import Team from '../components/section/Team.jsx'
 import Contact from '../components/section/Contact.jsx'
-// import Footer from '../components/Footer.jsx'
+import Footer from '../components/Footer.jsx'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,12 +22,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {/* <Header/> */}
+        <Header/> 
         <Hero/>
         <About/>
         <Team/>
         <Contact/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </>
   )
