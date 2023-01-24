@@ -20,6 +20,9 @@ export default function Home() {
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       </Head>
       <div>
         <Header/> 
@@ -27,7 +30,6 @@ export default function Home() {
         <About/>
         <Team/>
         <Contact/>
-        <Footer/>
       </div>
     </>
   )
