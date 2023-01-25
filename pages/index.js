@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-//import  Inter from '@next/font/google'
+import Script from 'next/script'
+import  {Inter} from '@next/font/google'
 import Header from '../components/section/Header.jsx'
 import Hero from '../components/Hero.jsx'
 import About from '../components/section/About.jsx'
@@ -10,7 +11,7 @@ import Contact from '../components/section/Contact.jsx'
 import Footer from '../components/Footer.jsx'
 
 
-//const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
-        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js" defer/>
+        <script src="../path/to/flowbite/dist/flowbite.min.js" defer/>
       </Head>
       <div>
         <Header/> 
