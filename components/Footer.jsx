@@ -17,6 +17,7 @@ const Footer = () => {
                     <h1 className='text-xl font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-2xl dark:text-white'>
                     Pathfinder
                     </h1>
+                    <p></p>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
