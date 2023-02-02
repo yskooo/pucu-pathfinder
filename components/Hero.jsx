@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import HeroSearch from '../public/herosearch.svg'
 
 const Hero = () => {
   return (
-        <section class="bg-white dark:bg-gray-900 mt-4 pt-20" id='home'>
+        <section class="bg-gradient-to-r from-white-500 to-teal-500 dark:bg-gray-900 mt-4 pt-20" id='home'>
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a href="#about" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
             <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
@@ -12,7 +13,7 @@ const Hero = () => {
                     <path fill-rule="evenodd" d="M2 3.75A.75.75 0 012.75 3h11.5a.75.75 0 010 1.5H2.75A.75.75 0 012 3.75zM2 7.5a.75.75 0 01.75-.75h7.508a.75.75 0 010 1.5H2.75A.75.75 0 012 7.5zM14 7a.75.75 0 01.75.75v6.59l1.95-2.1a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 111.1-1.02l1.95 2.1V7.75A.75.75 0 0114 7zM2 11.25a.75.75 0 01.75-.75h4.562a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
                 </svg>
             </span> 
-            <span class="text-sm font-medium">Related literature and studies made easy!</span> 
+            <span class="text-sm font-medium">Review of Related Literature and Studies made easy!</span> 
         </a>
 
         {/* <div class='flex justify-center items-centers'>
@@ -31,6 +32,14 @@ const Hero = () => {
                 </svg>
             </Link>  
         </div>
+     <div class="px-4 mx-auto text-center flex justify-center items-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+        <Image
+            src='/files-about.svg'
+            className='w-3/4'
+            width={50}
+            height={50}
+        />
+    </div>
         {/* <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
             <span class="font-semibold text-gray-400 uppercase">FEATURING IN</span>
             <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
