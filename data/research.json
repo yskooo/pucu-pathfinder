@@ -30,7 +30,7 @@
         "id":"4",
         "title": "A Quantitative Study about Youtube College Vlogs.pdf",
         "author":"12 STEM-1",
-        "category": "Social Media",
+        "category": "Online Games",
         "schoolYear":"2022-2023",
         "image":"/img/wuwu.jpeg",
         "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
@@ -39,7 +39,7 @@
           "id":"5",
           "title": "Research research, puro kayo research. Mga bobo",
           "author":"12 STEM-1",
-          "category": "Social Media",
+          "category": "Flex Learning",
           "schoolYear":"2022-2023",
           "image":"/img/wuwu.jpeg",
           "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
@@ -61,5 +61,14 @@
               "schoolYear":"2022-2023",
               "image":"/img/wuwu.jpeg",
               "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+              },
+              {
+                "id":"8",
+                "title": "Ang pogi pogi ko talaga",
+                "author":"12 STEM-1",
+                "category": "Test",
+                "schoolYear":"2022-2023",
+                "image":"/img/wuwu.jpeg",
+                "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
               }
 ]
