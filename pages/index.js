@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import Script from 'next/script'
 import  {Inter} from '@next/font/google'
 import Header from '../components/section/Header.jsx'
 import Hero from '../components/Hero.jsx'
+import Feature from '../components/section/Feature.jsx'
 import About from '../components/section/About.jsx'
 import Team from '../components/section/Team.jsx'
 import Contact from '../components/section/Contact.jsx'
@@ -20,7 +19,7 @@ export default function Home() {
         <title>Pathfinder</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/pucu.png" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js" defer/>
         <script src="../path/to/flowbite/dist/flowbite.min.js" defer/>
@@ -29,6 +28,7 @@ export default function Home() {
         <Header/> 
         <Hero/>
         <About/>
+        <Feature/>
         <Team/>
         <Contact/>
       </div>
