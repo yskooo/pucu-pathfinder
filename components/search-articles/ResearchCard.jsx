@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import SearchBar from './SearchBar';
+import Filter from './Filter';
 import data from '../../data/research.json';
 
 const ResearchCard = () => {
@@ -14,10 +15,24 @@ const ResearchCard = () => {
     
     setSearchResults(filteredData);
   }
+  const [item, setItem] = useState(data)
+
+  // filter
+  const filterItem = (curcat) => {
+    const newItem = data.filter((newValue) => {
+      return newValue.category === curcat;
+    });
+    setItem(newItem);
+  };
 
 return (
   <div>
-    <SearchBar data={data} onSearch={handleSearch}/>
+          <SearchBar data={data} onSearch={handleSearch}/>
+          <Filter
+            filterItem={filterItem}
+            setItem={setItem}
+            menuItems={menuItems}
+          />
     <article className='grid grid-cols-3 gap-4 m-6'>
       {searchResults.map(item => (
         <div key={item.id} >

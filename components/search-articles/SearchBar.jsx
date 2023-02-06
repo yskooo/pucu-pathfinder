@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import data from '../../data/research.json'
-
-
+import Filter from './Filter';
 
 const SearchBar = ({ data, onSearch }) => {
     const [searchTerm, setSearchTerm] = useState('');
