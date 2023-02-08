@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import ArticleNav from '../components/search-articles/ArticleNav.jsx'
 import ArticleDesc from '../components/search-articles/ArticleDesc.jsx';
-import ResearchCard from '../components/search-articles/ResearchCard'
+import ResearchCard from '../components/search-articles/ResearchCard';
 
 const Search = () => {
   return (
@@ -15,16 +15,16 @@ const Search = () => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js" defer/>
         <script src="../path/to/flowbite/dist/flowbite.min.js" defer/>
       </Head>
-      <nav classname='my-'>
+      <nav className='my-'>
           <ArticleNav/>
       </nav>
      <main className='contain min-h-screen'>
           <ArticleDesc/>
-           <ResearchCard/>
+          <ResearchCard/>
       </main>
     </>
   
   )
 }
 
-export default Search
+export default Search;
