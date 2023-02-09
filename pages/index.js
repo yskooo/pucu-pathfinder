@@ -28,7 +28,7 @@ export default function Home() {
         <Header/> 
         <Hero/>
         <About/>
-        <Feature/>
+        {/* <Feature/> */}
         <Team/>
         <Contact/>
       </div>
