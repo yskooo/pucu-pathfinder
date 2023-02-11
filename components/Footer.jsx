@@ -8,15 +8,16 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="" className="flex items-center">
-                    {/* <Image
-                    src="/pucu.png"
+                    <Image
+                    src="/img/pucupathlogo.svg"
+                    className='w-5/6 mx-0'
                     alt="pucu"
-                    width={50}
-                    height={50}
-                    /> */}
-                    <h1 className='text-xl font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-2xl dark:text-white'>
+                    width={100}
+                    height={100}
+                    />
+                    {/* <h1 className='text-xl font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-2xl dark:text-white'>
                     PATHFINDER
-                    </h1>
+                    </h1> */}
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -24,10 +25,10 @@ const Footer = () => {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Pathfinder</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:underline">About</a>
+                            <a href="" class="hover:underline">About</a>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Team</a>
+                            <a href="" class="hover:underline">Team</a>
                         </li>
                     </ul>
                 </div>
@@ -35,10 +36,10 @@ const Footer = () => {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            <a href="" class="hover:underline ">Github</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Email</a>
+                            <a href="" class="hover:underline">Email</a>
                         </li>
                     </ul>
                 </div>
