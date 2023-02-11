@@ -32,6 +32,7 @@ return (
             <div className="flex flex-col justify-between p-4 leading-normal">
               <h5 className="mb-2 text-lg font-serif tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
               <p className="font-light text-gray-700 dark:text-gray-400">Researchers: {item.author}</p>
+              <p className="font-light text-gray-700 dark:text-gray-400">Subject Code: STM 009</p>
               <p className="font-light text-gray-700 dark:text-gray-400">Category: {item.category}</p>
               <p className="font-light text-gray-700 dark:text-gray-400">School Year: {item.schoolYear}</p>
             </div>
