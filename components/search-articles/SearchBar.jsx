@@ -4,10 +4,10 @@ import data from '../../data/research.json'
 
 
 const SearchBar = ({ data, onSearch }) => {
-    const [searchTerm, setSearchTerm] = useState('');
+    const [searchTerm, setSearchTerm] = useState();
 
     const filteredData = () => {
-      const filtered = data.filter(item => item.includes(searchTerm));
+      const filtered = data.filter(item => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
       onSearch(filtered);
     }
   
@@ -15,6 +15,12 @@ const SearchBar = ({ data, onSearch }) => {
       setSearchTerm(e.target.value);
         onSearch(searchTerm);
   }
+
+    const handleSubmit = (event) => {
+    event.preventDefault();
+    onSearch(searchTerm);
+    };
+
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') { 
@@ -24,7 +30,7 @@ const SearchBar = ({ data, onSearch }) => {
   return (
     <>
       <div>
-      <form class="flex justify-center items-center">   
+      <form class="flex justify-center items-center" onSubmit={handleSubmit}>   
           <label for="simple-search" class="sr-only">Search related studies</label>
           <div class="w-4/5">
           <div class="relative inset-y-10 left-0 flex items-center pl-3 pointer-events-none">

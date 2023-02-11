@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import  {Inter} from '@next/font/google'
 import Header from '../components/section/Header.jsx'
+import Banner from '../components/Banner.jsx'
 import Hero from '../components/Hero.jsx'
 import Feature from '../components/section/Feature.jsx'
 import About from '../components/section/About.jsx'
@@ -25,8 +26,9 @@ export default function Home() {
         <script src="../path/to/flowbite/dist/flowbite.min.js" defer/>
       </Head>
       <div>
-        <Header/> 
-        <Hero/>
+        {/* <Header/>  */}
+        <Banner/>
+        {/* <Hero/> */}
         <About/>
         {/* <Feature/> */}
         <Team/>

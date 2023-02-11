@@ -10,7 +10,6 @@ const Team = () => {
             </div> 
         <div className='place-content-center justify-center align-center'>
         <div class="flex flex-col">
-          <div>Founder & Developer</div>
           <div>Project Manager & UI/UX Designer</div>
         </div>
         <section className=''>
@@ -39,8 +38,9 @@ const Team = () => {
                 <div>Analysts</div>
             </div>
         </section>
-
-
+        <div className="flex flex-col">
+          <div>Developer</div>
+        </div>
       </div>  
       </div>  
     </section>
