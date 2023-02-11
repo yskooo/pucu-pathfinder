@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>PUCU Pathfinder | RRL Made Easy</title>
+        <title>PUCU PATHFINDER | Navigate the world of search</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/pathfinder.png" />
@@ -26,7 +26,7 @@ export default function Home() {
         <script src="../path/to/flowbite/dist/flowbite.min.js" defer/>
       </Head>
       <div>
-        {/* <Header/>  */}
+        <Header/> 
         <Banner/>
         {/* <Hero/> */}
         <About/>
