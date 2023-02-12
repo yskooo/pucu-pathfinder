@@ -8,15 +8,15 @@ const About = () => {
             {/* <img class="w-full dark:hidden" src="" alt="dashboard image"/>
             <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"/> */}
 
-            <img src="/img/aipucu.png" alt="" />
+            {/* <img src="/img/aipucu.png" alt="" /> */}
 
-            {/* <Image
-             src="/img/aipucu.png"
-             className='w-2/3 ml-4 dark:hidden'
+            <Image
+             src="/img/digilib.svg"
+             className='w-4/5 ml-4 dark:hidden'
              alt="Picture of the author"
-             width={40}
-             height={40}
-              /> */}
+             width={100}
+             height={100}
+              />
             <div class="mt-4 md:mt-0">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">About PUCU PATHFINDER</h2>
                 <p class="mb-6 font-light text-slate text-gray-500 md:text-lg">
