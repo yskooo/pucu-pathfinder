@@ -39,7 +39,7 @@ const Banner = () => {
           </p>
           <div class="mt-5 sm:mt-8 sm:flex justify-start">
              <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-             <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-900 hover:bg-yellow-300 focus:ring-4 focus:ring-primary-500">
+             <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-900 hover:bg-green-800 focus:ring-4 focus:ring-yellow-300">
                  Learn more
              </a>
              <Link href="/articles" passHref target="_blank" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-slate-700 rounded-lg border border-gray-300 focus:ring-4 focus:ring-gray-100">
