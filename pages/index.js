@@ -4,7 +4,7 @@ import  {Inter} from '@next/font/google'
 import Header from '../components/section/Header.jsx'
 import Banner from '../components/Banner.jsx'
 import Hero from '../components/Hero.jsx'
-import Feature from '../components/section/Feature.jsx'
+import Subjects from '../components/section/Subjects.jsx'
 import About from '../components/section/About.jsx'
 import Team from '../components/section/Team.jsx'
 import Contact from '../components/section/Contact.jsx'
@@ -29,8 +29,8 @@ export default function Home() {
         <Header/> 
         <Banner/>
         {/* <Hero/> */}
+                <Subjects/>
         <About/>
-        {/* <Feature/> */}
         <Team/>
         <Contact/>
       </div>
