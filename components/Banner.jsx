@@ -31,8 +31,8 @@ const Banner = () => {
   <div class="flex items-center justify-center">
     <main class="max-w-screen-xl px-4 pt-16 lg:px-16">
         <div class="text-start">
-        <h1 class="mb-4 mx-auto text-5xl font-extrabold tracking-tight leading-none text-blue-900 md:text-5xl lg:text-7xl max-w-screen-lg">
-             Navigate the world of Search
+        <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-blue-900 mb-4 mx-auto text-5xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-7xl max-w-screen-lg">
+            Navigate the world of Search
         </h1>     
           <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Find the study that suits your own in a vast selection waiting for you!
