@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-    <nav className="bg-white absolute px-2 sm:px-4 py-2.5 w-full left-0 border-b border-gray-200">
+    <nav className="bg-white fixed px-2 sm:px-4 py-2.5 w-full left-0 border-b z-20 border-gray-200">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
   <a href="" className="flex items-center">
     <h1 className='text-lg font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-xl dark:text-white'>
