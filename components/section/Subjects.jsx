@@ -4,53 +4,58 @@ import Image from 'next/image'
 const Subjects = () => {
   return (
     <div>
-<section class="bg-white dark:bg-green-700">
-    <div class="container px-6 py-10 mx-auto">
-        <h1 className="text-2xl font-bold flex items-center justify-center">Subjects</h1>
+    <section class="bg-gray-100 dark:bg-green-700" id='subjects'>
+     <div class="px-6 py-10 mx-auto pt-20">
+      <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16 text-center">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Subjects</h2>
+                 <p class="text-base text-gray-500 sm:text-xl dark:text-gray-400">
+                     Discover the available research studies by the students of PHINMA UPang College Urdaneta from S.Y. 2019 - S.Y. 2023
+                </p>
+            </div> 
 
-        <p class="dark:bg-green-700 text-center">Discover the subjects available here so you`&apos`re not mahihirapan on your research</p>
-
-        <div class="grid grid-cols-3 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3">
-            <div class="w-full ">
-                {/* <div class="w-full h-64 bg-gray-300 rounded-lg dark:bg-gray-600"></div> */}
-                <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
-                    width={100}
-                    height={100}
+        {/* <div class="grid grid-cols-3 text-center gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3"> */}
+            <section className='flex flex-row justify-center items-center text-center gap-20'>
+            <div class="w-2/3">
+                <img className='w-full' src='img/subjectbook.svg' alt="" />
+                {/* <Image
+                    src='img/subjectbook.svg'
+                    className='w-full'
+                    width={10}
+                    height={10}
                     alt='logo'
-                    />
-                <h1>ABM 001</h1>
+                    /> */}
+                <h1 className='font-bold'>ABM 001</h1>
                 <p>ORGANIZATION AND MANAGEMENT</p>
-                {/* <h1 class="w-56 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700">ABM</h1>
-                <p class="w-24 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700">BLABLABLA</p> */}
             </div>
-            <div className="w-full">
+            <div className="w-3/4">
             <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
                     />
-                <h1>ABM 006</h1>
+                <h1 className='font-bold'>ABM 006</h1>
                 <p>PRINCIPLES OF MARKETING</p>
             </div>
-            <div className="w-full">
+            <div className="w-3/4">
             <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
                     />
-                <h1>APP 003</h1>
+                <h1 className='font-bold'>APP 003</h1>
                 <p>FILIPINO SA PILING LARANGAN</p>
             </div> 
+            </section>
+
+            <section className='grid grid-cols-4 text-center gap-10'>
             <div className="w-full">
-                <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+            <Image
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
@@ -59,9 +64,9 @@ const Subjects = () => {
                 <p>ENTREPRENEURSHIP</p>
             </div> 
             <div className="w-full">
-                <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+            <Image
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
@@ -71,8 +76,8 @@ const Subjects = () => {
             </div> 
             <div className="w-full">
             <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
@@ -82,8 +87,8 @@ const Subjects = () => {
             </div>
              <div className="w-full">
              <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
@@ -91,10 +96,13 @@ const Subjects = () => {
                 <h1>APP 007</h1>
                 <p>INQUIRIES, INVESTIGATION, AND IMMERSION</p>
             </div>
+            </section>
+
+            <section className='grid grid-cols-2 text-center gap-10'>
              <div className="w-full">
-                <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+             <Image
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
@@ -103,20 +111,23 @@ const Subjects = () => {
                 <p>RESEARCH IN SCIENCE, TECHNOLOGY, ENGINEERING, AND MATHEMATICS</p>
             </div>
             <div className="w-full">
-                <Image
-                    src='img/subject-book.svg'
-                    className='w-2/3'
+            <Image
+                    src='img/subjectbook.svg'
+                    className='w-full'
                     width={100}
                     height={100}
                     alt='logo'
                     />
                 <h1>COR 003 & COR 004</h1>
                 <p>KOMUNIKASYON AT PANANALIKSIK SA WIKA
-AT KULTURANG FILIPINO & PAGBASA AT PAGSURI
-NG IBA’T IBANG TEKSTO TUNGO SA PANANALIKSIK</p>
+                    AT KULTURANG FILIPINO & PAGBASA AT PAGSURI
+                    NG IBA’T IBANG TEKSTO TUNGO SA PANANALIKSIK
+                </p>
             </div>
+            </section>
         </div>
-    </div>
+        
+    {/* </div> */}
 </section>
     </div>
   )

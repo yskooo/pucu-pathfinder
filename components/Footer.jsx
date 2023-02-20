@@ -19,6 +19,7 @@ const Footer = () => {
                     PATHFINDER
                     </h1> */}
                 </a>
+                <p className='px-5 text-gray-500 dark:text-gray-400'>Helping student rangers forge a path in the world of research.</p>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
