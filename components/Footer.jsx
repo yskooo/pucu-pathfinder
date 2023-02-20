@@ -6,20 +6,19 @@ const Footer = () => {
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-4xl">
         <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
+            <div class="mb-30 md:mb-0">
                 <a href="" className="flex items-center">
                     <Image
                     src="/img/pucupathlogo.svg"
-                    className='w-5/6 mx-0'
+                    className='w-3/4'
                     alt="pucu"
                     width={100}
                     height={100}
                     />
-                    {/* <h1 className='text-xl font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-2xl dark:text-white'>
-                    PATHFINDER
-                    </h1> */}
                 </a>
-                <p className='px-5 text-gray-500 dark:text-gray-400'>Helping student rangers forge a path in the world of research.</p>
+                <div className='mx-16'>
+                  <p className=' text-gray-500 dark:text-gray-400'>Helping student rangers forge a path in the world of research.</p>
+                </div>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
