@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-    <nav className="bg-transparent fixed px-2 sm:px-4 py-2.5 w-full left-0 border-b z-20 border-gray-200 backdrop-filter backdrop-blur-2xl">
+    <nav className="bg-transparent fixed px-2 sm:px-4 py-2.5 w-full left-0 border-b z-20 border-gray-200 backdrop-filter backdrop-blur-2xl backdrop-brightness-75">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
   <a href="" className="flex items-center">
     <h1 className='text-lg font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-xl dark:text-white'>
@@ -18,7 +18,9 @@ const Header = () => {
     </h1>
   </a>
   <div className="flex md:order-2">
-    <img src="/img/pucu-white.svg" className='w-14' alt="" />
+    <a href='https://up.phinma.edu.ph/' target='_blank' rel='noreferrer'>
+      <img src="/img/pucu-white.svg" className='w-14' alt="" />
+    </a>
     {/* <Link href='/articles'>
       <button type="button" className="text-white hover:bg-green-700 bg-blue-900 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">

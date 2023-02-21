@@ -7,7 +7,8 @@ const SearchBar = ({ data, onSearch }) => {
     const [searchTerm, setSearchTerm] = useState();
 
     const filteredData = () => {
-      const filtered = data.filter(item => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
+      // const filtered = data.filter(item => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
+      const filtered = data.filter(item => item.title.includes(searchTerm.toLowerCase()));
       onSearch(filtered);
     }
   

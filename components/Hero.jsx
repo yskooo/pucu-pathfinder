@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-<div class="bg-[url('/img/bgbanner.svg')] relative h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center"> 
+<div class="bg-[url('/img/bgbanner.svg')] relative h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center" id='home'> 
   <main class="px-8 sm:px-24 z-10 sm:w-2/3">
         <div class="">
           <h2 class="text-4xl tracking-tight leading-10 font-extrabold sm:text-5xl text-[#D3B306] sm:leading-none md:text-6xl">
