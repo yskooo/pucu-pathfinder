@@ -15,19 +15,18 @@ const Subjects = () => {
 
         {/* <div class="grid grid-cols-3 text-center gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3"> */}
             <section className='flex flex-row justify-center items-center text-center gap-20'>
-            <div class="w-2/3">
-                <img className='w-full' src='img/subjectbook.svg' alt="" />
-                {/* <Image
+            <div class="w-2/6">
+                <Image
                     src='img/subjectbook.svg'
                     className='w-full'
                     width={10}
                     height={10}
                     alt='logo'
-                    /> */}
+                    />
                 <h1 className='font-bold'>ABM 001</h1>
                 <p>ORGANIZATION AND MANAGEMENT</p>
             </div>
-            <div className="w-3/4">
+            <div className="w-2/6">
             <Image
                     src='img/subjectbook.svg'
                     className='w-full'
@@ -38,7 +37,7 @@ const Subjects = () => {
                 <h1 className='font-bold'>ABM 006</h1>
                 <p>PRINCIPLES OF MARKETING</p>
             </div>
-            <div className="w-3/4">
+            <div className="w-2/6">
             <Image
                     src='img/subjectbook.svg'
                     className='w-full'
@@ -99,7 +98,7 @@ const Subjects = () => {
             </section>
 
             <section className='grid grid-cols-2 text-center gap-10'>
-             <div className="w-full">
+             <div className="2/6">
              <Image
                     src='img/subjectbook.svg'
                     className='w-full'
@@ -110,7 +109,7 @@ const Subjects = () => {
                 <h1>STM 009</h1>
                 <p>RESEARCH IN SCIENCE, TECHNOLOGY, ENGINEERING, AND MATHEMATICS</p>
             </div>
-            <div className="w-full">
+            <div className="1/6">
             <Image
                     src='img/subjectbook.svg'
                     className='w-full'

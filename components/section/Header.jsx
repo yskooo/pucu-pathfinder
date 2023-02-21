@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Header = () => {
   return (
-    <nav className="bg-transparent absolute px-2 sm:px-4 py-2.5 w-full left-0 border-b z-20 border-gray-200">
+    <nav className="bg-transparent fixed px-2 sm:px-4 py-2.5 w-full left-0 border-b z-20 border-gray-200 backdrop-filter backdrop-blur-2xl">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
   <a href="" className="flex items-center">
     <h1 className='text-lg font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-xl dark:text-white'>
@@ -34,19 +34,19 @@ const Header = () => {
     <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
       <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
         <li>
-          <a href="#home" className="block py-2 pl-3 pr-4 font-light rounded text-[#D3B306] md:bg-transparent md:p-0 dark:text-white" aria-current="page">Home</a>
+          <a href="#home" className="block py-2 pl-3 pr-4  rounded text-white hover:text-[#D3B306] md:bg-transparent md:p-0 dark:text-white" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="#subjects" className="block py-2 pl-3 pr-4 font-light text-white rounded hover:text-[#D3B306] md:hover:bg-transparent md:hover:text-teal-700 md:p-0">Subjects</a>
+          <a href="#subjects" className="block py-2 pl-3 pr-4 text-white rounded hover:text-[#D3B306] md:p-0">Subjects</a>
         </li>
         <li>
-          <a href="#about" className="block py-2 pl-3 pr-4 font-light text-white rounded hover:text-[#D3B306] md:hover:bg-transparent md:hover:text-teal-700 md:p-0">About</a>
+          <a href="#about" className="block py-2 pl-3 pr-4 text-white rounded hover:text-[#D3B306] md:p-0">About</a>
         </li>
         <li>
-          <a href="#team" className="block py-2 pl-3 pr-4 font-light text-white rounded hover:text-[#D3B306] md:hover:bg-transparent md:hover:text-teal-700 md:p-0">Meet Our Team</a>
+          <a href="#team" className="block py-2 pl-3 pr-4 text-white rounded hover:text-[#D3B306] md:p-0">Meet Our Team</a>
         </li>
         <li>
-          <a href="#contact" className="block py-2 pl-3 pr-4 font-light text-white rounded hover:text-[#D3B306] md:hover:bg-transparent md:hover:text-teal-700 md:p-0">Contact Us</a>
+          <a href="#contact" className="block py-2 pl-3 pr-4 text-white rounded hover:text-[#D3B306] md:p-0">Contact Us</a>
         </li>
       </ul>
     </div>

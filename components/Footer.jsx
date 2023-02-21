@@ -16,10 +16,11 @@ const Footer = () => {
                     height={100}
                     />
                 </a>
-                <div className='mx-16'>
-                  <p className=' text-gray-500 dark:text-gray-400'>Helping student rangers forge a path in the world of research.</p>
+                <div className='mx-10 sm:my-4'>
+                  <p className='my-2 text-gray-500 dark:text-gray-400'>Helping student rangers forge <br/>a path in the world of research.</p>
                 </div>
             </div>
+            <br /> <br />
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Pathfinder</h2>

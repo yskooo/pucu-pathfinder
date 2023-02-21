@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-<div class="bg-[url('/img/bgbanner.svg')] relative h-screen w-full flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center"> 
+<div class="bg-[url('/img/bgbanner.svg')] relative h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center"> 
   <main class="px-8 sm:px-24 z-10 sm:w-2/3">
         <div class="">
           <h2 class="text-4xl tracking-tight leading-10 font-extrabold sm:text-5xl text-[#D3B306] sm:leading-none md:text-6xl">
@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <div class="mt-5 sm:mt-8 sm:flex justify-start">
              <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-             <a href="#about" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-blue-800 focus:ring-4 focus:ring-yellow-300">
+             <a href="#about" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-gradient-l from-[#D3B306] to-green-900  hover:bg- focus:ring-4 focus:ring-yellow-300">
                  Learn more
              </a>
              <Link href="/articles" passHref target="_blank" class="inline-flex justify-center items-center py-3 px-5 text-base font-small text-center text-white rounded-lg border border-gray-300 focus:ring-4 focus:ring-gray-100">
@@ -30,7 +30,7 @@ const Hero = () => {
       </main>
   
     <div class="flex sm:flex-col z-10">
-           <img src="/img/emblem.svg" alt="" />
+           <img src="/img/emblem.svg" className='relative' alt="" />
     </div>
   
 </div>
