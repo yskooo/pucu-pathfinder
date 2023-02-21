@@ -15,10 +15,15 @@ const Team = () => {
         <div className='place-content-center justify-center align-center'>
         <section class="flex flex-col">
           <div className='my-10'>
+            <div className="flex justify-center items-center">
+              <img src="/people/jm.png" className='rounded-full w-24' alt="" />
+            </div>
               <h1>Valendiano, Jay Marc</h1>
             <p>Project Manager & UI/UX Designer</p>
           </div>
+
           <div className='my-10'>
+          <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="/people/geneva.JPG" alt=""/>
             <h1>Patacsil, Harold</h1>
             <p>Software Developer</p>
           </div>
