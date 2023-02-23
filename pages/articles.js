@@ -19,7 +19,7 @@ const Search = () => {
           <ArticleNav/>
       </nav>
      <main className='contain min-h-screen'>
-          <ArticleDesc/>
+          {/* <ArticleDesc/> */}
           <ResearchCard/>
       </main>
     </>

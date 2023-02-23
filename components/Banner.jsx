@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 const Banner = () => {
   return (
-<div class="grid grid-flow-col grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4" id='home'>
+<div class="grid grid-flow-col grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 bg-gray-100" id='home'>
   
   <div class="flex items-center justify-center">
     <main class="max-w-screen-xl px-4 pt-16 lg:px-16">
