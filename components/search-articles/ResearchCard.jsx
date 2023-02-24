@@ -7,10 +7,22 @@ import data from '../../data/research.json';
 const ResearchCard = () => {
   const [searchResults, setSearchResults] = useState(data); // data provided
 
-  const handleSearch = (searchTerm) => {
-    const filteredData = data.filter(item => {
-      return item.title.toLowerCase().includes(searchTerm.toLowerCase())
-    });
+  // const handleSearch = (searchTerm) => {
+  //   const filteredData = data.filter(item => {
+  //     return item.subjectTitle && item.subjectTitle.toLowerCase().includes(searchTerm.toLowerCase());
+  //   });
+
+    const handleSearch = (searchTerm) => {
+      const filteredData = data.filter(item => {
+        const subjectTitleMatch = item.subjectTitle && item.subjectTitle.toLowerCase().includes(searchTerm.toLowerCase());
+        const researchersMatch = item.researchers && item.researchers.toLowerCase().includes(searchTerm.toLowerCase());
+        const typeMatch = item.type && item.type.toLowerCase().includes(searchTerm.toLowerCase());
+        const AYMatch = item.AY && item.AY.toLowerCase().includes(searchTerm.toLowerCase());
+
+        const categoryMatch = category === 'All categories' || item.subjectTitle === category;
+
+        return subjectTitleMatch || researchersMatch || typeMatch || AYMatch && categoryMatch;
+      });
     
     setSearchResults(filteredData);
   }
@@ -25,7 +37,7 @@ return (
             <Image
               className="object-fit w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" 
               src={item.image}
-              alt={item.title}
+              alt={item.subjectTitle}
               width={100}
               height={100}
             />
