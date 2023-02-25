@@ -17,7 +17,7 @@ const Footer = () => {
                     />
                 </a>
                 <div className='mx-10 sm:my-4'>
-                  <p className='my-2 text-gray-500 dark:text-gray-400'>Helping student rangers forge <br/>a path in the world of research.</p>
+                  <p className='my-1 text-gray-500 dark:text-gray-400'>Helping research rangers forge <br/>a path in the world of research.</p>
                 </div>
             </div>
             <br /> <br />
