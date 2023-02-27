@@ -4,30 +4,32 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
-    <div class="mx-auto max-w-screen-xl">
+    <div class="mx-auto max-w-screen-4xl">
         <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
+            <div class="mb-30 md:mb-0">
                 <a href="" className="flex items-center">
-                    {/* <Image
-                    src="/pucu.png"
+                    <Image
+                    src="/img/pucupathlogo.svg"
+                    className='w-3/4'
                     alt="pucu"
-                    width={50}
-                    height={50}
-                    /> */}
-                    <h1 className='text-xl font-extrabold tracking-tight leading-none text-gray-800 md:text-xl lg:text-2xl dark:text-white'>
-                    PATHFINDER
-                    </h1>
+                    width={100}
+                    height={100}
+                    />
                 </a>
+                <div className='mx-10 sm:my-4'>
+                  <p className='my-1 text-gray-500 dark:text-gray-400'>Helping research rangers forge <br/>a path in the world of research.</p>
+                </div>
             </div>
+            <br /> <br />
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Pathfinder</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://flowbite.com" class="hover:underline">About</a>
+                            <a href="" class="hover:underline">About</a>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Team</a>
+                            <a href="" class="hover:underline">Team</a>
                         </li>
                     </ul>
                 </div>
@@ -35,10 +37,10 @@ const Footer = () => {
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social</h2>
                     <ul class="text-gray-600 dark:text-gray-400">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            <a href="" class="hover:underline ">Github</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Email</a>
+                            <a href="" class="hover:underline">Email</a>
                         </li>
                     </ul>
                 </div>
