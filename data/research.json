@@ -1,74 +1,137 @@
 [
   {
   "id":"1",
-  "title": "A Quantitative Study about Youtube College Vlogs.pdf",
-  "author":"12 STEM-1",
-  "category": "Social Media",
-  "schoolYear":"2022-2023",
-  "image":"/img/wuwu.jpeg",
-  "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+  "subjectTitle": "ABM 001 Organization and Management",
+  "researchers":"11 ABM-1",
+  "type": "Business Plan",
+  "AY":"2021-2022",
+  "image":"/img/abm001/11ABM1_GROUP2_FINALOMPLAN-converted.png",
+  "file":"/pdfs/ABM001/11ABM1_GROUP2_FINALOMPLAN-converted.pdf"
   },
   {
     "id":"2",
-    "title": "Research research, puro kayo research. Mga bobo",
-    "author":"12 STEM-1",
-    "category": "Social Media",
-    "schoolYear":"2022-2023",
-    "image":"/img/agoi.png",
-    "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+    "subjectTitle": "ABM 001 Organization and Management",
+    "researchers":"11 ABM-3",
+    "type": "Business Plan",
+    "AY":"2021-2022",
+    "image":"/img/abm001/11 ABM 3_GROUP 5_FINALOMPLAN.png",
+    "file":"/pdfs/ABM001/11 ABM 3_GROUP 5_FINALOMPLAN.pdf"
     },
     {
       "id":"3",
-      "title": "Matalino akong tao pero di ko gets bat kailangan ng research",
-      "author":"12 STEM-1",
-      "category": "Social Media",
-      "schoolYear":"2022-2023",
-      "image":"/img/wuwu.jpeg",
-      "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+      "subjectTitle": "ABM 001 Organization and Management",
+      "researchers":"11 ABM-5",
+      "type": "Organization and Management Plan",
+      "AY":"2021-2022",
+      "image":"/img/abm001/11 ABM 5_GROUP 9_FINALOMPLAN.png",
+      "file":"/pdfs/ABM001/11 ABM 5_GROUP 9_FINALOMPLAN.pdf"
       },
       {
         "id":"4",
-        "title": "A Quantitative Study about Youtube College Vlogs.pdf",
-        "author":"12 STEM-1",
-        "category": "Online Games",
-        "schoolYear":"2022-2023",
-        "image":"/img/wuwu.jpeg",
-        "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+        "subjectTitle": "ABM 001 Organization and Management",
+        "researchers":"11 ABM-2",
+        "type": "Organization and Management Plan",
+        "AY":"2021-2022",
+        "image":"/img/abm001/11-ABM-2_GROUP3_FINALOMPLAN.png",
+        "file":"/pdfs/ABM001/11-ABM-2_GROUP3_FINALOMPLAN.pdf"
         },
         {
           "id":"5",
-          "title": "Research research, puro kayo research. Mga bobo",
-          "author":"12 STEM-1",
-          "category": "Flex Learning",
-          "schoolYear":"2022-2023",
-          "image":"/img/wuwu.jpeg",
-          "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+          "subjectTitle": "ABM 001 Organization and Management",
+          "researchers":"11 ABM-1",
+          "type": "Business Plan",
+          "AY":"2021-2022",
+          "image":"/img/abm001/11ABM-1_GROUP1_FINALOMPLAN.png",
+          "file":"/pdfs/ABM001/11ABM-1_GROUP1_FINALOMPLAN.pdf"
           },
           {
             "id":"6",
-            "title": "Matalino akong tao pero di ko gets bat kailangan ng research",
-            "author":"12 STEM-1",
-            "category": "Social Media",
-            "schoolYear":"2022-2023",
-            "image":"/img/wuwu.jpeg",
-            "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+            "subjectTitle": "ABM 001 Organization and Management",
+            "researchers":"11 ABM-2",
+            "type": "Business Plan",
+            "AY":"2021-2022",
+            "image":"/img/abm001/11ABM2_Group4-_FINALOMPLAN.docx.png",
+            "file":"/pdfs/ABM001/11ABM2_Group4-_FINALOMPLAN.docx.pdf"
             },
             {
               "id":"7",
-              "title": "Matalino akong tao pero di ko gets bat kailangan ng research",
-              "author":"12 STEM-1",
-              "category": "Social Media",
-              "schoolYear":"2022-2023",
-              "image":"/img/wuwu.jpeg",
-              "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
+              "subjectTitle": "ABM 001 Organization and Management",
+              "researchers":"11 ABM-3",
+              "type": "Business Plan",
+              "AY":"2021-2022",
+              "image":"/img/abm001/11ABM3_GROUP6_FINALOMPLAN.png",
+              "file":"/pdfs/ABM001/11ABM3_GROUP6_FINALOMPLAN.pdf"
               },
               {
                 "id":"8",
-                "title": "Ang pogi pogi ko talaga",
-                "author":"12 STEM-1",
-                "category": "Test",
-                "schoolYear":"2022-2023",
-                "image":"/img/wuwu.jpeg",
-                "file":"/pdfs/A Quantitative Study about Youtube College Vlogs.pdf"
-              }
+                "subjectTitle": "ABM 001 Organization and Management",
+                "researchers":"11 ABM-6",
+                "type": "Organization and Management Plan",
+                "AY":"2021-2022",
+                "image":"/img/abm001/11ABM06_GROUP12_FINALOMPLAN.png",
+                "file":"/pdfs/ABM001/11ABM06_GROUP12_FINALOMPLAN.pdf"
+                },
+                {
+                  "id":"9",
+                  "subjectTitle": "ABM 001 Organization and Management",
+                  "researchers":"11 ABM-4",
+                  "type": "Organization and Management Plan",
+                  "AY":"2021-2022",
+                  "image":"/img/abm001/ABM4_GROUP7_FINALOMPLAN.png",
+                  "file":"/pdfs/ABM001/ABM4_GROUP7_FINALOMPLAN.pdf"
+                  },
+                  {
+                    "id":"10",
+                    "subjectTitle": "ABM 001 Organization and Management",
+                    "researchers":"11 ABM-4",
+                    "type": "Organization and Management Plan",
+                    "AY":"2021-2022",
+                    "image":"/img/abm001/CHECKED 11 ABM 4_GROUP8_FINALOMPLAN.png",
+                    "file":"/pdfs/ABM001/CHECKED 11 ABM 4_GROUP8_FINALOMPLAN.pdf"
+                    },
+                    {
+                      "id":"11",
+                      "subjectTitle": "ABM 001 Organization and Management",
+                      "researchers":"11 ABM-6",
+                      "type": "Business Plan",
+                      "AY":"2021-2022",
+                      "image":"/img/abm001/CHECKED 11 ABM 6_GROUP 11_FINALOMPLAN.png",
+                      "file":"/pdfs/ABM001/CHECKED 11 ABM 6_GROUP 11_FINALOMPLAN.pdf"
+                      },
+                      {
+                        "id":"12",
+                        "subjectTitle": "APP 004 Entrepreneurship",
+                        "researchers":"12 ABM-2",
+                        "type": "Marketing Plan",
+                        "AY":"2021-2022",
+                        "image":"/img/app004/12 ABM 2_GROUP 3_FINALMPAN.png",
+                        "file":"/pdfs/APP004/12 ABM 2_GROUP 3_FINALMPAN.pdf"
+                        },
+                        {
+                          "id":"13",
+                          "subjectTitle": "APP 004 Entrepreneurship",
+                          "researchers":"12 ABM-2",
+                          "type": "Marketing Plan",
+                          "AY":"2021-2022",
+                          "image":"/img/app004/12 ABM 2_GROUP 4_FINALMPLAN.png",
+                          "file":"/pdfs/APP004/12 ABM 2_GROUP 4_FINALMPLAN.pdf"
+                          },
+                          {
+                            "id":"14",
+                            "subjectTitle": "APP 004 Entrepreneurship",
+                            "researchers":"12 ABM-1",
+                            "type": "Marketing Plan",
+                            "AY":"2021-2022",
+                            "image":"/img/app004/12-ABM-1_GROUP-2_FINALMPLAN.png",
+                            "file":"/pdfs/APP004/12-ABM-1_GROUP-2_FINALMPLAN.pdf"
+                            },
+                            {
+                              "id":"15",
+                              "subjectTitle": "APP 004 Entrepreneurship",
+                              "researchers":"12 ABM-4",
+                              "type": "Marketing Plan",
+                              "AY":"2021-2022",
+                              "image":"/img/app004/12 ABM 4_GROUP 8_FINAL MPLAN.png",
+                              "file":"/pdfs/APP004/12 ABM 4_GROUP 8_FINAL MPLAN.pdf"
+                              }                                                          
 ]

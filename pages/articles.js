@@ -7,10 +7,10 @@ const Search = () => {
   return (
     <>
       <Head>
-        <title>Pathfinder | Articles</title>
+        <title>| Find the study that suits your own in a vast selection waiting for you!</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/pathfinder.png" />
+        <link rel="icon" href="/img/pathfinderwhite.svg" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js" defer/>
         <script src="../path/to/flowbite/dist/flowbite.min.js" defer/>
@@ -19,7 +19,7 @@ const Search = () => {
           <ArticleNav/>
       </nav>
      <main className='contain min-h-screen'>
-          <ArticleDesc/>
+          {/* <ArticleDesc/> */}
           <ResearchCard/>
       </main>
     </>
