@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import ArticleNav from '../components/search-articles/ArticleNav.jsx'
+import ArticleNav from '../components/search-articles/ArticleNav.jsx';
 import ArticleDesc from '../components/search-articles/ArticleDesc.jsx';
 import ResearchCard from '../components/search-articles/ResearchCard';
 
